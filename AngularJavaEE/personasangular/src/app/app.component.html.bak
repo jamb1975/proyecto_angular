@@ -1,0 +1,5 @@
+<div class="text-align: center">
+
+  <button on type="button" class="btn btn-link">Link</button>
+</div>
+<router-outlet ></router-outlet>

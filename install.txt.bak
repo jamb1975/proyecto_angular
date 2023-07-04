@@ -1,0 +1,12 @@
+Set-ExecutionPolicy Unrestrited  //PowerShell
+npm install //recrea node_modules
+ng g class Cliente.model --skipTests=true
+ng new gateway
+ng  g class DataService --skipTests=true
+ng g class PersonaService
+ng g component carrusel --skipTests=true inlineStyle=true
+ng add @ng-bootstrap/ng-bootstrap
+npm install ftp-client
+
+ng serve --proxy-config proxy.config.json
+npm run build --prod --proxy-config proxy.config.json
